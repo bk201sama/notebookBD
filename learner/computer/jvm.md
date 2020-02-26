@@ -17,4 +17,4 @@ OutOfMemoryError（允许动态扩展，无法再动态扩展了)
 12. 堆最容易产生OutOfMemoryError；java.lang.OutOfMemoryError: Java heap space表示堆内存不足；OutOfMemoryError: GC Overhead Limit Exceeded 如果GC花费的时间超过 98%, 并且GC回收的内存少于 2%, JVM就会抛出这个错误。
 13. 方法区（非堆）存储已被虚拟机加载的类信息、常量、静态变量、即时编译器编译后的代码等数据。在hotspot虚拟机的实现就是永久代。
 14. 元空间默认最大内存只受系统内存的限制。可以通过调节参数进行限制。起始内存如果不设置动态调节。
-
+# 对象
