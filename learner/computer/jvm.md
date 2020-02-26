@@ -12,9 +12,8 @@ OutOfMemoryError（允许动态扩展，无法再动态扩展了)
 7. java堆（由于是垃圾收集器管理的主要区域也叫GC堆）的唯一目的就是存放对象实例与数组。
 8. GC堆从采用分代垃圾收集算法细分为新生代和老年代
 9. jdk7以及jdk之前堆分为新生代，老生代，永生代
-10. jdk8之后永生代被元空间取代，元空间直接使用内存
-11. 新生代分eden区，from Survivor和to Survivor 
-12. 新生代升老年代有2种标准，取最小的那个。标准1-可配的老年代阀值；标准2-按年龄从小到大排，某年龄组超过survivor区一半，作为晋升年龄阈值的一个标准。
-13. 堆最容易产生OutOfMemoryError；java.lang.OutOfMemoryError: Java heap space表示堆内存不足；OutOfMemoryError: GC Overhead Limit Exceeded 如果GC花费的时间超过 98%, 并且GC回收的内存少于 2%, JVM就会抛出这个错误。
-14. 
+10. 新生代分eden区，from Survivor和to Survivor 
+11. 新生代升老年代有2种标准，取最小的那个。标准1-可配的老年代阀值；标准2-按年龄从小到大排，某年龄组超过survivor区一半，作为晋升年龄阈值的一个标准。
+12. 堆最容易产生OutOfMemoryError；java.lang.OutOfMemoryError: Java heap space表示堆内存不足；OutOfMemoryError: GC Overhead Limit Exceeded 如果GC花费的时间超过 98%, 并且GC回收的内存少于 2%, JVM就会抛出这个错误。
+13. 
 
