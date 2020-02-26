@@ -13,4 +13,6 @@ OutOfMemoryError（允许动态扩展，无法再动态扩展了)
 8. GC堆从采用分代垃圾收集算法细分为新生代和老年代
 9. jdk7以及jdk之前堆分为新生代，老生代，永生代
 10. jdk8之后永生代被元空间取代，元空间直接使用内存
+11. 新生代分eden区，from Survivor和to Survivor 
+12. 
 
