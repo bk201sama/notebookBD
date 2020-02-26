@@ -5,5 +5,6 @@
 1. 程序计数器功能：实现代码的流程控制；实现多线程时的切换记录之前执行到的位置。
 2. 程序计数器是唯一一个不会出现OutOfMemoryError的内存区域。
 3. 虚拟机栈功能：放栈帧，每个栈帧上有局部变量表，操作数栈，动态链接，方法出口信息。
-4. 虚拟机栈会出现StackOverFlowError 和OutOfMemoryError
+4. 虚拟机栈会出现StackOverFlowError(不许动态扩展超过栈深度)
+OutOfMemoryError
 
