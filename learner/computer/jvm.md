@@ -20,3 +20,4 @@ OutOfMemoryError（允许动态扩展，无法再动态扩展了)
 # hotspot虚拟机对象
 ## 对象创建
 ![title](https://raw.githubusercontent.com/bk201sama/imagesBD/master/gitnote/2020/02/26/Java%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%BF%87%E7%A8%8B-1582710411187.png)
+
