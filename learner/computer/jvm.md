@@ -8,5 +8,5 @@
 4. 虚拟机栈会出现StackOverFlowError(不许动态扩展，但是超过栈深度)
 OutOfMemoryError（允许动态扩展，无法再动态扩展了)
 5. 函数调用压入栈帧，return与抛异常栈帧被弹出。
-6. 本地方法栈功能：存放Native方法服务
+6. 本地方法栈功能：存放Native方法服务，hotspot虚拟机中合二为一
 
