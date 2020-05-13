@@ -9,11 +9,14 @@
                         <goals>
                             <goal>compile</goal>
                         </goals>
+-- 选择性加上
                         <configuration>
                             <sourceDirs>
                                 <source>src/main/java</source>
+                                <source>src/main/kotlin</source>
                             </sourceDirs>
                         </configuration>
+-- 选择性加上
                     </execution>
                 </executions>
 ```
