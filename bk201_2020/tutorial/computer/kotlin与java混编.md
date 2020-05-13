@@ -20,7 +20,7 @@
                     </execution>
                 </executions>
 ```
-4. maven-compiler-plugin修改
+4. maven-compiler-plugin修改（重点）
 
 ```xml
 <executions>
